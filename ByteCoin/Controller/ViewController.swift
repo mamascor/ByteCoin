@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController{
     
     var coinManager = CoinManager()
+    
 
     @IBOutlet weak var priceViewLabel: UILabel!
     @IBOutlet weak var currencyPicker: UIPickerView!
